@@ -1,0 +1,45 @@
+---
+import Header from '../components/header.astro'
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="https://cdn-icons-png.flaticon.com/512/9968/9968660.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>My portfolio - Carlos Rodríguez</title>
+	</head>
+	<body>
+		<Header></Header>
+		<div>
+			<div class="h-screen sticky top-0 bg-gray-800 flex justify-center items-center">
+					<p class="text-white text-8xl font-bold text-center">
+						I Am Carlos Rodríguez
+					</p>
+			</div>
+			<div class="h-screen sticky top-0 bg-white flex justify-center items-center">
+				<div class="container mx-auto">
+					<p class="text-gray-800 text-6xl text-center">
+						I aspire to be part of one of the most prestigious companies in the country, contributing my knowledge as a <span class="font-bold text-yellow-500 animate-pulse">computer engineer</span> for the benefit of society.
+					  </p>
+				</div>
+			</div>
+			
+				<div class="h-screen sticky bg-gray-800 flex flex-col justify-evenly" id="skills">
+					<div class="container mx-auto">
+						<p class="text-white text-8xl font-bold">Skills</p>
+					</div>
+					<div class="container mx-auto">
+						<p class="text-white text-6xl font-bold mb-8 text-blue-200">Programming languages:</p>
+						<p class="text-white text-4xl indent-8">Dart, Java, JavaScript, PHP</p>
+					</div>
+					<div class="container mx-auto">
+						<p class="text-white text-6xl font-bold mb-8 text-blue-200">Other technologies:</p>
+						<p class="text-white text-4xl text-justify indent-8">Android, Astro, Bootstrap, CSS, Flutter, Git, HTML, Laravel, Laragon, MongoDB, MySQL, PostgreSQL, Postman, React JS, Rest, Strapi, SQL Server</p>
+					</div>
+				</div>		  
+		</div>	  
+	</body>
+</html>
